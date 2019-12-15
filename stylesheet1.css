@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/*.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}*/
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left{
+	float:left;
+}
+.header-left h3{
+	/*color:white;*/
+	color:#ccf5ff;
+  width: 124px;
+  margin-top: 10px;
+  margin-left:40px;
+  font-size:30px;
+}
+.header-right{
+	float:right;
+	margin-right: 0px;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  /*color: white;*/
+  color:#ccf5ff;
+  display: block;
+  float: left;
+  /*transition: all 0.5s;*/
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(5.jpg);
+  background-size:cover;
+  color:white;
+  text-align:center;
+  height:700px;
+  
+}
+
+.top-wrapper h1 {
+  opacity: 1.0;
+  font-size: 55px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top:5%;
+  background-color:white;
+  text-align: center;
+  width:100%;
+  height:600px;
+  /*border-bottom: 3px solid darkgray; Remove*/
+}
+
+.lesson-wrapper h1{
+font-weight:normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  padding-top:50px;
+}
+
+.lesson-icon {
+  position: relative;
+  
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.lesson-icon img{
+	height:200px;
+	width: 200px;
+}
+.link{
+	color:black;
+}
+.text-contents {
+	height:80px;
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.lesson button{
+	  background-color: #80b3ff;
+	  border: none;
+	  border-radius: 3px;
+	  color: black;
+	  margin: 10px auto;
+	  cursor: pointer;
+	  display:block;
+	  width:70px;
+	  height:30px;
+	  box-shadow: 0 4px #4d94ff;
+}
+
+.lesson button:active{
+position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+.message{
+	width:100%;
+	height:200px;
+	text-align:center;
+	background-color: #f7f7f7;
+	color: #5f5d60;
+	padding-top:50px;
+}
+
+.text h1,h3{
+font-weight:normal;
+}
+
+
+
+.PYTHON{
+	
+	background-color:white;
+	/*height:550px;*/
+	height:800px;
+	padding-top:50px;
+}
+
+.PYTHON h1{
+	text-align:center;
+}
+
+.guide{
+	height:150px;
+	width:100%;
+	background-color:darkgray;
+}
+.guide-text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color:black;
+  background-color:#f5f5f0;
+  height:87%;
+  width:98%;
+  text-align:center;
+  font-size:36px;
+  
+}
+
+.execution{
+background-color:#f7f7f7;
+
+padding:0 auto;
+}
+
+.split{
+height: 100%;
+width: 50%;
+
+}
+
+.left{
+	left:0;
+	height:400px;
+	width:500px;
+	background-color:#f7f7f7;
+	display: inline-block;
+	margin-left:250px;
+	border:1px solid darkgray;
+
+	
+}
+.right{
+	right:0;
+	background-color:#f7f7f7;
+	height:400px;
+	width:500px;
+	display: inline-block;
+}
+
+.column{
+
+
+}
+
+
+.code{
+	width:95%;
+	height:375px;
+  background-color:white;
+  color: darkgray;
+  text-align: left;
+  font-size: 30px;
+  border: none;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.output{
+	width: 95%;
+  height: 375px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  border: none;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.run{
+	  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.run:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer h3 {
+  /*color:black;*/
+  color:#ccf5ff;
+  width: 124px;
+  margin-top: 10px;
+  margin-left:40px;
+  font-size:30px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  margin-left:40px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(34, 49, 52, 0.9);
+  border-top:
+}
