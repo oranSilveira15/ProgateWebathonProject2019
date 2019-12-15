@@ -1,2 +1,5 @@
 # ProgateWebathonProject2019
-Theme:Anything which helps aspiring developers and beginners who are learning to code using HTML CSS and JavaScript(ES6)
+December 2019
+Progate Webathon Project
+Theme:Anything which helps aspiring developers and beginners who are learning to code.
+HTML CSS and JavaScript(ES6)
